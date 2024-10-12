@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - IMAGE_FRAMES_CSV_PATH=data/raw/image_data.csv
+      - DATABASE_PATH=data/processed/image_data.db

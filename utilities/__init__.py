@@ -8,4 +8,4 @@ from .constants import (
     NEW_WIDTH,
     IMAGE_FORMAT,
 )
-from .helper import analyze_csv
+from .csv_analyzer import analyze_csv

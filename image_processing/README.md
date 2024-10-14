@@ -5,7 +5,7 @@ This module contains functions for processing and manipulating image frames for 
 ## Contents
 
 - `__init__.py`: Exports main functions for external use
-- `helper.py`: Contains core image processing functionality
+- `image_frame_utils.py`: Contains core image processing functionality
 
 ## Key Functions
 
@@ -28,10 +28,4 @@ from image_processing import create_frame_from_pixels, resize_frame, apply_color
 - Resizes images using the LANCZOS algorithm for high-quality results
 - Applies a 'jet' colormap to grayscale images
 
-## Dependencies
-
-- NumPy
-- PIL (Python Imaging Library)
-- Matplotlib (for colormap)
-
-This module works in conjunction with the utilities module for constants and the custom_logger for logging warnings and errors during image processing.
+This module works in conjunction with the `utilities` module for `constants` and the `custom_logger` for logging warnings and errors during image processing.

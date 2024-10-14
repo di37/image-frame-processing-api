@@ -6,7 +6,7 @@ This module provides utility functions and constants used across the project.
 
 - `__init__.py`: Exports constants and utility functions
 - `constants.py`: Defines project-wide constants
-- `helper.py`: Contains utility functions
+- `csv_analyzer.py`: Contains utility functions for CSV analysis
 
 ## Constants
 
@@ -40,4 +40,4 @@ from utilities import IMAGE_FRAMES_CSV_PATH, DATABASE_PATH, analyze_csv
 - Pandas (for CSV analysis)
 - custom_logger (for logging analysis results)
 
-This module is designed to be imported by other modules in the project to access shared constants and utility functions. It helps maintain consistency across the project and provides useful general functions that are frequently for data analysis.
+This module is designed to be imported by other modules in the project to access shared constants and utility functions. It helps maintain consistency across the project and provides useful general functions that are frequently used for data analysis.
